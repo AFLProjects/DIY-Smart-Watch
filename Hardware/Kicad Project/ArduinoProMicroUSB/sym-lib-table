@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ArduinoProMicroUSB-eagle-import)(type Legacy)(uri ${KIPRJMOD}/ArduinoProMicroUSB-eagle-import.lib)(options "")(descr ""))
+)

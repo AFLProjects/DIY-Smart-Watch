@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name ATMEGA32U4-AU)(type KiCad)(uri C:/Users/cfluder/Downloads/ATMEGA32U4-AU)(options "")(descr ""))
+  (lib (name FPC)(type KiCad)(uri C:/Users/cfluder/Downloads/Connector_FFC-FPC.pretty)(options "")(descr ""))
+  (lib (name jumper)(type KiCad)(uri ${KIPRJMOD}/jumper.pretty)(options "")(descr ""))
+  (lib (name Capacitors)(type KiCad)(uri "C:/Users/Adrian - Programming/Downloads/SparkFun-KiCad-Libraries-master/SparkFun-KiCad-Libraries-master/Footprints/Capacitors.pretty")(options "")(descr ""))
+)

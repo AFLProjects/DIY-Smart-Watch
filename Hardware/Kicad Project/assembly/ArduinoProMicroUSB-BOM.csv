@@ -1,0 +1,25 @@
+Designator,Quantity,Value,Footprint,LCSC Part #
+"C3, C7, C11, C12, ",4,1uF,Capacitor_SMD:C_0402_1005Metric,C52923
+"C4, C10, ",2,0.1uF,Capacitor_SMD:C_0402_1005Metric,C1525
+"C5, C6, ",2,22pF,Capacitor_SMD:C_0402_1005Metric,C1555
+"C8, C9, ",2,100nF,Capacitor_SMD:C_0402_1005Metric,C1525
+"D1, ",1,DIODESOD,Diode_SMD:D_SOD-123,C8598
+"D2, ",1,Green,Diode_SMD:D_0805_2012Metric,C2296
+"D3, ",1,Yellow,Diode_SMD:D_0805_2012Metric,C2296
+"D4, ",1,D,Diode_SMD:D_0805_2012Metric,C2296
+"D5, ",1,LED,Diode_SMD:D_0805_2012Metric,C2296
+"F1, ",1,500mA,Fuse:Fuse_1812_4532Metric,C151168
+"LED1, ",1,Red,Diode_SMD:D_0805_2012Metric,C2296
+"Q1, ",1,MMBT3904,Downloads:SOT23-3,C20526
+"R1, R2, ",2,1K,Resistor_SMD:R_0603_1608Metric,C21190
+"R3, ",1,10K,Resistor_SMD:R_0603_1608Metric,C25804
+"R4, R12, R13, R14, R15, ",5,10k,Resistor_SMD:R_0603_1608Metric,C25804
+"R5, R7, ",2,22,Resistor_SMD:R_0603_1608Metric,C23345
+"R6, R10, R11, ",3,330,Resistor_SMD:R_0603_1608Metric,C23138
+"R8, ",1,10,Resistor_SMD:R_0603_1608Metric,C22859
+"R9, ",1,200,Resistor_SMD:R_0603_1608Metric,C8218
+"RN1, RN2, ",2,R_Pack04,Resistor_SMD:R_Array_Concave_4x0603,C66697
+"U1, ",1,DS3231M,Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm,C37663
+"U2, ",1,MIC5219,Downloads:SOT23-5,C145689
+"U5, ",1,ATMEGA32U4QFN,Package_QFP:TQFP-44_10x10mm_P0.8mm,C44854
+"Y1, ",1,16MHz,Downloads:CRYSTAL-SMD-5X3.2-4PAD,C16171
