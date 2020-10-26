@@ -40,3 +40,8 @@ Schedule
 | Mechanical Prototypes |            |            |
 | Review                |            |            |				|
 
+Schematic and PCB
+
+<img src="https://github.com/AFLProjects/Arduino-Smart-Watch/blob/main/img/img3.PNG" alt="drawing" width="1000"/>
+<img src="https://github.com/AFLProjects/Arduino-Smart-Watch/blob/main/img/schematic.PNG" alt="drawing" width="1000"/>
+
