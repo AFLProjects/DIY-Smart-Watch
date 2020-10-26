@@ -1,3 +1,4 @@
+
 Project Overview
 ========
 
@@ -35,3 +36,7 @@ Schedule
 | Mechanical Prototypes |            |            |
 | Review                |            |            |				|
 
+Schematic
+========
+
+![](https://srv-store2.gofile.io/download/wIwxbI/Capture.PNG)
