@@ -39,4 +39,4 @@ Schedule
 Schematic
 ========
 
-![](https://srv-store2.gofile.io/download/wIwxbI/Capture.PNG)
+![](https://github.com/AFLProjects/Arduino-Smart-Watch/blob/main/img/schematic.PNG)
