@@ -7,11 +7,6 @@ We are also using an TFT 240 x 240 IPS [ST7789](https://www.rhydolabz.com/docume
 
 <img src="https://github.com/AFLProjects/Arduino-Smart-Watch/blob/main/img/img.PNG" alt="drawing" width="500"/>
 
-Schematic
-========
-
-![](https://github.com/AFLProjects/Arduino-Smart-Watch/blob/main/img/schematic.PNG)
-
 Parts
 ========
 
