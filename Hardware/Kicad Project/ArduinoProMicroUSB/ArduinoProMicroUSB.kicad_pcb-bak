@@ -1687,7 +1687,7 @@
   )
 
   (module Downloads:Jumper (layer F.Cu) (tedit 5F2A867E) (tstamp 5F93595D)
-    (at 129.032 77.343 90)
+    (at 129.032 77.1652 90)
     (path /5FA7299E)
     (fp_text reference SJ1 (at 0 4.445 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))

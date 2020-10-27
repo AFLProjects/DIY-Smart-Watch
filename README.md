@@ -1,5 +1,5 @@
 <img src="https://github.com/AFLProjects/Arduino-Smart-Watch/blob/main/img/img2.png" alt="drawing" width="1000"/>
-
+![Alt text](https://github.com/AFLProjects/Arduino-Smart-Watch/blob/main/img/gif.gif) / ![](https://github.com/AFLProjects/Arduino-Smart-Watch/blob/main/img/gif.gif)
 
 Project Overview
 ========
