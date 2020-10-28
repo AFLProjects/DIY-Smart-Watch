@@ -930,17 +930,6 @@ Wire Wire Line
 Connection ~ 4350 4150
 Wire Wire Line
 	4050 4150 4350 4150
-$Comp
-L ArduinoProMicroUSB-eagle-import:CAP_POL1206 C1
-U 1 1 5F92A7E8
-P 4050 4425
-F 0 "C1" H 3875 4500 59  0000 L BNN
-F 1 "10uF" H 3800 4250 59  0000 L BNN
-F 2 "Capacitors:EIA3216" H 4050 4425 50  0001 C CNN
-F 3 "" H 4050 4425 50  0001 C CNN
-	1    4050 4425
-	1    0    0    -1  
-$EndComp
 Connection ~ 4050 4150
 Wire Wire Line
 	3550 4150 4050 4150
@@ -1623,4 +1612,15 @@ Text Notes 7500 5650 0    50   ~ 0
 ?
 Text Notes 7500 6075 0    50   ~ 0
 ?
+$Comp
+L ArduinoProMicroUSB-eagle-import:CAP_POL1206 C1
+U 1 1 5F92A7E8
+P 4050 4425
+F 0 "C1" H 3875 4500 59  0000 L BNN
+F 1 "10uF" H 3800 4250 59  0000 L BNN
+F 2 "Capacitors:EIA3216" H 4050 4425 50  0001 C CNN
+F 3 "" H 4050 4425 50  0001 C CNN
+	1    4050 4425
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1615,4 +1615,12 @@ F 6 "Manufacturer Recommendations" H 6250 1800 50  0001 L BNN "Field6"
 	1    6250 1800
 	1    0    0    -1  
 $EndComp
+Text Notes 3750 4725 0    50   ~ 0
+?
+Text Notes 5775 4000 0    50   ~ 0
+?
+Text Notes 7500 5650 0    50   ~ 0
+?
+Text Notes 7500 6075 0    50   ~ 0
+?
 $EndSCHEMATC
