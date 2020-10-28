@@ -107,7 +107,42 @@ TFT 1.3' ST7789 Display
 ========
 ->[Schematic](https://www.waveshare.com/w/upload/0/0c/1.3inch_LCD_Module_Schematic.pdf)
 
+MIC5219([Datasheet](https://cdn-shop.adafruit.com/product-files/3081/mic5219.pdf))
+========
 
+IN, GND, EN, OUT, BP
 
+IN(1):
+-[Supply Input.](https://cdn-shop.adafruit.com/product-files/3081/mic5219.pdf#page=3)
+-[Low-Noise Fixed Voltage Regulator](https://cdn-shop.adafruit.com/product-files/3081/mic5219.pdf#page=12)
+-[Typical applications](https://cdn-shop.adafruit.com/product-files/3081/mic5219.pdf#page=1)
+
+-> IN should be connected to the input voltage.
+
+GND(2):
+-> GND
+
+EN(3):
+-[Enable (Input): CMOS compatible control input. Logic high = enable; logic
+low or open = shutdown](https://cdn-shop.adafruit.com/product-files/3081/mic5219.pdf#page=3)
+-[Forcing EN (enable/shutdown) high (>2V) enables the
+regulator](https://cdn-shop.adafruit.com/product-files/3081/mic5219.pdf#page=9)
+
+-> EN should be connected to the input voltage 5V>2V
+
+OUT(5):
+-[3.3V Ultra-Low-Noise Regulator](https://cdn-shop.adafruit.com/product-files/3081/mic5219.pdf#page=1)
+-[Regulator Output.](https://cdn-shop.adafruit.com/product-files/3081/mic5219.pdf#page=3)
+-[An output capacitor is required between OUT and GND to
+prevent oscillation.](https://cdn-shop.adafruit.com/product-files/3081/mic5219.pdf#page=9)
+
+-> OUT should be connected to 3.3V with a capacitor.
+
+BP(6):
+-[3.3V Ultra-Low-Noise Regulator](https://cdn-shop.adafruit.com/product-files/3081/mic5219.pdf#page=1)
+-[Reference Bypass: Connect external 470pF capacitor to GND to reduce
+output noise](https://cdn-shop.adafruit.com/product-files/3081/mic5219.pdf#page=3)
+
+-> BP sould be connected to GND with a 470pF capacitor
 
 
