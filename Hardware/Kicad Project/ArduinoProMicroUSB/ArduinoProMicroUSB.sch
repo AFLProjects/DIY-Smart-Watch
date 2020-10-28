@@ -221,37 +221,10 @@ Wire Notes Line
 	4700 2800 4700 825 
 Wire Notes Line
 	9525 825  9525 2800
-Connection ~ 8350 1800
-Wire Wire Line
-	8350 1800 8450 1800
-Connection ~ 8250 1800
-Wire Wire Line
-	8250 1800 8350 1800
-Wire Wire Line
-	8150 1800 8250 1800
-$Comp
-L Device:R_Pack04 RN2
-U 1 1 5E9052E7
-P 8350 1600
-F 0 "RN2" H 8538 1646 50  0000 L CNN
-F 1 "R_Pack04" H 8538 1555 50  0000 L CNN
-F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 8625 1600 50  0001 C CNN
-F 3 "~" H 8350 1600 50  0001 C CNN
-	1    8350 1600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8450 1400 8450 1200
-Wire Wire Line
-	8250 1400 8250 1200
 Text Label 8250 1250 3    50   ~ 0
 SCL
-Wire Wire Line
-	8150 1400 8150 1200
 Text Label 8450 1400 1    50   ~ 0
 SQW
-Wire Wire Line
-	8350 1400 8350 1200
 Wire Notes Line
 	4700 825  9525 825 
 Text Notes 4700 825  0    50   ~ 0
@@ -328,7 +301,6 @@ Wire Notes Line
 Wire Notes Line
 	1825 4150 350  4150
 Connection ~ 2800 1275
-Connection ~ 8150 1800
 $Comp
 L ArduinoProMicroUSB-eagle-import:3.3V #P+01
 U 1 1 5F299E76
@@ -1594,7 +1566,6 @@ Wire Notes Line
 	1975 4425 1975 6375
 Wire Notes Line
 	350  4425 350  6375
-NoConn ~ 8350 1200
 Wire Wire Line
 	4475 4550 4350 4550
 Wire Wire Line
@@ -1614,4 +1585,34 @@ F 3 "" H 4875 4350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3500 3975 3800 3975
+Connection ~ 8150 1800
+Wire Wire Line
+	8150 1800 8250 1800
+Connection ~ 8250 1800
+Wire Wire Line
+	8250 1800 8350 1800
+Wire Wire Line
+	8350 1800 8450 1800
+Connection ~ 8350 1800
+Wire Wire Line
+	8450 1400 8450 1200
+Wire Wire Line
+	8350 1400 8350 1200
+Wire Wire Line
+	8250 1400 8250 1200
+Wire Wire Line
+	8150 1400 8150 1200
+Text Label 8350 1375 1    50   ~ 0
+EVI
+$Comp
+L Device:R_Pack04 RN2
+U 1 1 5E9052E7
+P 8350 1600
+F 0 "RN2" H 8538 1646 50  0000 L CNN
+F 1 "R_Pack04" H 8538 1555 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 8625 1600 50  0001 C CNN
+F 3 "~" H 8350 1600 50  0001 C CNN
+	1    8350 1600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
