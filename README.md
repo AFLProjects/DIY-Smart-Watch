@@ -40,6 +40,13 @@ Schedule
 | Review                |            |            |				|
 
 
+Schematic and PCB
+========
+
+<img src="https://github.com/AFLProjects/Arduino-Smart-Watch/blob/main/img/img3.PNG" alt="drawing" width="1000"/>
+<img src="https://github.com/AFLProjects/Arduino-Smart-Watch/blob/main/img/schematic.PNG" alt="drawing" width="1000"/>
+
+
 Schematic Checking
 ========
 
@@ -91,9 +98,3 @@ VSS(5):
 -[Ground](https://cdn.sparkfun.com/assets/6/8/2/b/3/RV-3028-C7_App-Manual.pdf#page=9)
 
 ->VSS should be connected to GND
-
-Schematic and PCB
-========
-
-<img src="https://github.com/AFLProjects/Arduino-Smart-Watch/blob/main/img/img3.PNG" alt="drawing" width="1000"/>
-<img src="https://github.com/AFLProjects/Arduino-Smart-Watch/blob/main/img/schematic.PNG" alt="drawing" width="1000"/>
