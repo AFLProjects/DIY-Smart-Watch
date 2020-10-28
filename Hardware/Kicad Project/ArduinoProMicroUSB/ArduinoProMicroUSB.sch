@@ -217,18 +217,6 @@ Wire Notes Line
 	2250 8500 2250 3150
 Text Notes 2250 3150 0    50   ~ 0
 Microcontroller
-Wire Notes Line
-	4700 2800 4700 825 
-Wire Notes Line
-	9525 825  9525 2800
-Text Label 8250 1250 3    50   ~ 0
-SCL
-Text Label 8450 1400 1    50   ~ 0
-SQW
-Wire Notes Line
-	4700 825  9525 825 
-Text Notes 4700 825  0    50   ~ 0
-Clock
 Wire Wire Line
 	475  4625 1600 4625
 Text Label 475  4625 0    50   ~ 0
@@ -277,19 +265,6 @@ Wire Notes Line
 	350  4425 1975 4425
 Text Notes 350  4425 0    50   ~ 0
 Connections
-Wire Notes Line
-	9525 2800 4700 2800
-$Comp
-L ArduinoProMicroUSB-eagle-import:3.3V #P+0107
-U 1 1 5F3EAD44
-P 8150 1800
-F 0 "#P+0107" H 8150 1800 50  0001 C CNN
-F 1 "3.3V" V 8150 1969 59  0000 L CNN
-F 2 "" H 8150 1800 50  0001 C CNN
-F 3 "" H 8150 1800 50  0001 C CNN
-	1    8150 1800
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	900  1800 900  1950
 Wire Wire Line
@@ -1393,125 +1368,6 @@ $EndComp
 Wire Wire Line
 	475  5350 1825 5350
 $Comp
-L RV-3028-C7:RV-3028-C7 U1
-U 1 1 5F93A803
-P 6250 1800
-F 0 "U1" H 6250 2467 50  0000 C CNN
-F 1 "RV-3028-C7" H 6250 2376 50  0000 C CNN
-F 2 "Downloads:IC_RV-3028-C7" H 6250 1800 50  0001 L BNN
-F 3 "0.8 mm" H 6250 1800 50  0001 L BNN
-F 4 "Micro Crystal" H 6250 1800 50  0001 L BNN "Field4"
-F 5 "1.1" H 6250 1800 50  0001 L BNN "Field5"
-F 6 "Manufacturer Recommendations" H 6250 1800 50  0001 L BNN "Field6"
-	1    6250 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L ArduinoProMicroUSB-eagle-import:CAP0603-CAP C8
-U 1 1 5F979C82
-P 7550 1825
-F 0 "C8" H 7610 1940 59  0000 L BNN
-F 1 "100nF" H 7610 1740 59  0000 L BNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7550 1825 50  0001 C CNN
-F 3 "" H 7550 1825 50  0001 C CNN
-	1    7550 1825
-	1    0    0    -1  
-$EndComp
-$Comp
-L ArduinoProMicroUSB-eagle-import:3.3V #P+08
-U 1 1 5F984620
-P 7550 1350
-F 0 "#P+08" H 7550 1350 50  0001 C CNN
-F 1 "3.3V" V 7550 1519 59  0000 L CNN
-F 2 "" H 7550 1350 50  0001 C CNN
-F 3 "" H 7550 1350 50  0001 C CNN
-	1    7550 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR012
-U 1 1 5F999908
-P 7550 2275
-F 0 "#PWR012" H 7550 2025 50  0001 C CNN
-F 1 "GND" V 7555 2147 50  0000 R CNN
-F 2 "" H 7550 2275 50  0001 C CNN
-F 3 "" H 7550 2275 50  0001 C CNN
-	1    7550 2275
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7550 1400 7550 1625
-Wire Wire Line
-	6950 1700 7075 1700
-Wire Wire Line
-	6950 1900 7075 1900
-Text Label 7000 1700 0    50   ~ 0
-SQW
-Text Label 7000 1900 0    50   ~ 0
-32K
-Wire Wire Line
-	6950 1400 7550 1400
-Wire Wire Line
-	6950 1500 7325 1500
-$Comp
-L Device:R R9
-U 1 1 5FABF17A
-P 7325 1775
-F 0 "R9" H 7425 1775 50  0000 C CNN
-F 1 "10K" V 7209 1775 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 7255 1775 50  0001 C CNN
-F 3 "~" H 7325 1775 50  0001 C CNN
-	1    7325 1775
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7325 1500 7325 1625
-Text Label 5375 2000 0    50   ~ 0
-SDA
-Text Label 5375 1900 0    50   ~ 0
-SCL
-Wire Wire Line
-	5375 1900 5550 1900
-Wire Wire Line
-	5375 2000 5550 2000
-Wire Wire Line
-	5550 1700 5375 1700
-Text Label 5375 1700 0    50   ~ 0
-EVI
-Wire Wire Line
-	7550 1925 7550 2275
-$Comp
-L power:GND #PWR010
-U 1 1 5FBE17D7
-P 7325 2275
-F 0 "#PWR010" H 7325 2025 50  0001 C CNN
-F 1 "GND" V 7330 2147 50  0000 R CNN
-F 2 "" H 7325 2275 50  0001 C CNN
-F 3 "" H 7325 2275 50  0001 C CNN
-	1    7325 2275
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR09
-U 1 1 5FBEC56E
-P 7000 2275
-F 0 "#PWR09" H 7000 2025 50  0001 C CNN
-F 1 "GND" V 7005 2147 50  0000 R CNN
-F 2 "" H 7000 2275 50  0001 C CNN
-F 3 "" H 7000 2275 50  0001 C CNN
-	1    7000 2275
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7325 1925 7325 2275
-Wire Wire Line
-	6950 2200 7000 2200
-Wire Wire Line
-	7000 2200 7000 2275
-Wire Wire Line
-	7550 1400 7550 1350
-Connection ~ 7550 1400
-$Comp
 L ArduinoProMicroUSB-eagle-import:ATMEGA32U4QFN U5
 U 1 1 60493190
 P 8825 5350
@@ -1558,8 +1414,6 @@ Text Label 475  6025 0    50   ~ 0
 SQW
 Wire Wire Line
 	475  6025 1600 6025
-Text Label 8150 1250 3    50   ~ 0
-SDA
 Wire Notes Line
 	350  6375 1975 6375
 Wire Notes Line
@@ -1585,34 +1439,180 @@ F 3 "" H 4875 4350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3500 3975 3800 3975
-Connection ~ 8150 1800
+Text Label 8650 1500 3    50   ~ 0
+SCL
+Text Label 8850 1650 1    50   ~ 0
+SQW
+$Comp
+L ArduinoProMicroUSB-eagle-import:3.3V #P+0107
+U 1 1 5F3EAD44
+P 8550 2050
+F 0 "#P+0107" H 8550 2050 50  0001 C CNN
+F 1 "3.3V" V 8550 2219 59  0000 L CNN
+F 2 "" H 8550 2050 50  0001 C CNN
+F 3 "" H 8550 2050 50  0001 C CNN
+	1    8550 2050
+	-1   0    0    1   
+$EndComp
+Text Label 8550 1500 3    50   ~ 0
+SDA
+Connection ~ 8550 2050
 Wire Wire Line
-	8150 1800 8250 1800
-Connection ~ 8250 1800
+	8550 2050 8650 2050
+Connection ~ 8650 2050
 Wire Wire Line
-	8250 1800 8350 1800
+	8650 2050 8750 2050
 Wire Wire Line
-	8350 1800 8450 1800
-Connection ~ 8350 1800
+	8750 2050 8850 2050
+Connection ~ 8750 2050
 Wire Wire Line
-	8450 1400 8450 1200
+	8850 1650 8850 1450
 Wire Wire Line
-	8350 1400 8350 1200
+	8750 1650 8750 1450
 Wire Wire Line
-	8250 1400 8250 1200
+	8650 1650 8650 1450
 Wire Wire Line
-	8150 1400 8150 1200
-Text Label 8350 1375 1    50   ~ 0
+	8550 1650 8550 1450
+Text Label 8750 1625 1    50   ~ 0
 EVI
 $Comp
 L Device:R_Pack04 RN2
 U 1 1 5E9052E7
-P 8350 1600
-F 0 "RN2" H 8538 1646 50  0000 L CNN
-F 1 "R_Pack04" H 8538 1555 50  0000 L CNN
-F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 8625 1600 50  0001 C CNN
-F 3 "~" H 8350 1600 50  0001 C CNN
-	1    8350 1600
+P 8750 1850
+F 0 "RN2" H 8938 1896 50  0000 L CNN
+F 1 "R_Pack04" H 8938 1805 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 9025 1850 50  0001 C CNN
+F 3 "~" H 8750 1850 50  0001 C CNN
+	1    8750 1850
+	1    0    0    -1  
+$EndComp
+Text Notes 4700 825  0    50   ~ 0
+Clock
+Wire Notes Line
+	4700 2800 4700 825 
+Wire Notes Line
+	4700 825  9525 825 
+Wire Notes Line
+	9525 825  9525 2800
+Wire Notes Line
+	9525 2800 4700 2800
+Connection ~ 7550 1400
+Wire Wire Line
+	7550 1400 7550 1350
+Wire Wire Line
+	7000 2200 7000 2275
+Wire Wire Line
+	6950 2200 7000 2200
+Wire Wire Line
+	7325 1925 7325 2275
+$Comp
+L power:GND #PWR09
+U 1 1 5FBEC56E
+P 7000 2275
+F 0 "#PWR09" H 7000 2025 50  0001 C CNN
+F 1 "GND" V 7005 2147 50  0000 R CNN
+F 2 "" H 7000 2275 50  0001 C CNN
+F 3 "" H 7000 2275 50  0001 C CNN
+	1    7000 2275
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5FBE17D7
+P 7325 2275
+F 0 "#PWR010" H 7325 2025 50  0001 C CNN
+F 1 "GND" V 7330 2147 50  0000 R CNN
+F 2 "" H 7325 2275 50  0001 C CNN
+F 3 "" H 7325 2275 50  0001 C CNN
+	1    7325 2275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 1925 7550 2275
+Text Label 5375 1700 0    50   ~ 0
+EVI
+Wire Wire Line
+	5550 1700 5375 1700
+Wire Wire Line
+	5375 2000 5550 2000
+Wire Wire Line
+	5375 1900 5550 1900
+Text Label 5375 1900 0    50   ~ 0
+SCL
+Text Label 5375 2000 0    50   ~ 0
+SDA
+Wire Wire Line
+	7325 1500 7325 1625
+$Comp
+L Device:R R9
+U 1 1 5FABF17A
+P 7325 1775
+F 0 "R9" H 7425 1775 50  0000 C CNN
+F 1 "10K" V 7209 1775 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7255 1775 50  0001 C CNN
+F 3 "~" H 7325 1775 50  0001 C CNN
+	1    7325 1775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 1500 7325 1500
+Wire Wire Line
+	6950 1400 7550 1400
+Text Label 7000 1900 0    50   ~ 0
+32K
+Text Label 7000 1700 0    50   ~ 0
+SQW
+Wire Wire Line
+	6950 1900 7075 1900
+Wire Wire Line
+	6950 1700 7075 1700
+Wire Wire Line
+	7550 1400 7550 1625
+$Comp
+L power:GND #PWR012
+U 1 1 5F999908
+P 7550 2275
+F 0 "#PWR012" H 7550 2025 50  0001 C CNN
+F 1 "GND" V 7555 2147 50  0000 R CNN
+F 2 "" H 7550 2275 50  0001 C CNN
+F 3 "" H 7550 2275 50  0001 C CNN
+	1    7550 2275
+	1    0    0    -1  
+$EndComp
+$Comp
+L ArduinoProMicroUSB-eagle-import:3.3V #P+08
+U 1 1 5F984620
+P 7550 1350
+F 0 "#P+08" H 7550 1350 50  0001 C CNN
+F 1 "3.3V" V 7550 1519 59  0000 L CNN
+F 2 "" H 7550 1350 50  0001 C CNN
+F 3 "" H 7550 1350 50  0001 C CNN
+	1    7550 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L ArduinoProMicroUSB-eagle-import:CAP0603-CAP C8
+U 1 1 5F979C82
+P 7550 1825
+F 0 "C8" H 7610 1940 59  0000 L BNN
+F 1 "100nF" H 7610 1740 59  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7550 1825 50  0001 C CNN
+F 3 "" H 7550 1825 50  0001 C CNN
+	1    7550 1825
+	1    0    0    -1  
+$EndComp
+$Comp
+L RV-3028-C7:RV-3028-C7 U1
+U 1 1 5F93A803
+P 6250 1800
+F 0 "U1" H 6250 2467 50  0000 C CNN
+F 1 "RV-3028-C7" H 6250 2376 50  0000 C CNN
+F 2 "Downloads:IC_RV-3028-C7" H 6250 1800 50  0001 L BNN
+F 3 "0.8 mm" H 6250 1800 50  0001 L BNN
+F 4 "Micro Crystal" H 6250 1800 50  0001 L BNN "Field4"
+F 5 "1.1" H 6250 1800 50  0001 L BNN "Field5"
+F 6 "Manufacturer Recommendations" H 6250 1800 50  0001 L BNN "Field6"
+	1    6250 1800
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

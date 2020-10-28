@@ -50,7 +50,9 @@ Schematic and PCB
 Schematic Checking
 ========
 
+
 U1 : RV-3028-C7 ([Datasheet](https://cdn.sparkfun.com/assets/6/8/2/b/3/RV-3028-C7_App-Manual.pdf))
+========
 EVI, SCL, SDA, VDD, VBACKUP, INT, CLKOUT, VSS
 
 EVI(8) :
@@ -69,7 +71,7 @@ SCL(3),SDA(4) :
 -[OPERATING RV-3028-C7 WITH BACKUP SUPPLY VOLTAGE](https://cdn.sparkfun.com/assets/6/8/2/b/3/RV-3028-C7_App-Manual.pdf#page=103)
 -[Interface lines SCL, SDA are open drain and require pull-up resistors to VDD](https://cdn.sparkfun.com/assets/6/8/2/b/3/RV-3028-C7_App-Manual.pdf#page=103)
 
-->SCL/SDA should be pulled up with a 2.2k resistors and connected to the MCU
+-> SCL/SDA should be pulled up with a 2.2k resistors and connected to the MCU
 
 VDD(7):
 -[Power Supply Voltage. ](https://cdn.sparkfun.com/assets/6/8/2/b/3/RV-3028-C7_App-Manual.pdf#page=9)
@@ -81,13 +83,13 @@ VBACKUP(6):
 -[Backup Supply Voltage. When the backup switchover function is not needed, VBACKUP must be tied
 to VSS with a 10 kΩ resistor](https://cdn.sparkfun.com/assets/6/8/2/b/3/RV-3028-C7_App-Manual.pdf#page=9)
 
-->VBACKUP should be connected to GND with a 10k resistor
+-> VBACKUP should be connected to GND with a 10k resistor
 
 INT(2) :
 -[Interrupt Output; open-drain; active LOW; requires pull-up resistor;](https://cdn.sparkfun.com/assets/6/8/2/b/3/RV-3028-C7_App-Manual.pdf#page=9)
 -[TYPICAL APPLICATION CIRCUIT](https://cdn.sparkfun.com/assets/6/8/2/b/3/RV-3028-C7_App-Manual.pdf#page=103)
 
-INT -> INT should be pulled up and connected to the MCU
+-> INT should be pulled up and connected to the MCU
 
 CLKOUT(1):
 -[Clock Output](https://cdn.sparkfun.com/assets/6/8/2/b/3/RV-3028-C7_App-Manual.pdf#page=9)
@@ -98,3 +100,14 @@ VSS(5):
 -[Ground](https://cdn.sparkfun.com/assets/6/8/2/b/3/RV-3028-C7_App-Manual.pdf#page=9)
 
 ->VSS should be connected to GND
+
+
+
+TFT 1.3' ST7789 Display
+========
+->[Schematic](https://www.waveshare.com/w/upload/0/0c/1.3inch_LCD_Module_Schematic.pdf)
+
+
+
+
+
