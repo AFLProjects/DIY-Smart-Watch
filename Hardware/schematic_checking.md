@@ -91,3 +91,63 @@ BP(6):
 output noise](https://cdn-shop.adafruit.com/product-files/3081/mic5219.pdf#page=3)
 
 -> BP sould be connected to GND with a 470pF capacitor
+
+ATMEGA32U4
+=======
+
+RESET:
+-[Reset input. A low level on this pin for longer than the minimum pulse length will generate a reset, even if the
+clock is not running. The minimum pulse length is given in Table 8-2 on page 53. Shorter pulses are not
+guaranteed to generate a reset.](http://ww1.microchip.com/downloads/en/devicedoc/atmel-7766-8-bit-avr-atmega16u4-32u4_datasheet.pdf#page=7)
+-[Reset Pull-up Resistor](http://ww1.microchip.com/downloads/en/devicedoc/atmel-7766-8-bit-avr-atmega16u4-32u4_datasheet.pdf#page=384)
+
+-> Reset should be pulled up with a 10k resistor close to the MCU
+
+VCC,VCC,AVCC,AVCC:
+-[Digital supply voltage.](http://ww1.microchip.com/downloads/en/devicedoc/atmel-7766-8-bit-avr-atmega16u4-32u4_datasheet.pdf#page=5)
+-[AVCC is the supply voltage pin (input) for all the A/D Converter channels. If the ADC is not used, it should be
+externally connected to VCC](http://ww1.microchip.com/downloads/en/devicedoc/atmel-7766-8-bit-avr-atmega16u4-32u4_datasheet.pdf#page=7)
+
+-> VCC and AVCC should be connected to 3.3V
+
+AREF:
+-[This is the analog reference pin (input) for the A/D Converte](http://ww1.microchip.com/downloads/en/devicedoc/atmel-7766-8-bit-avr-atmega16u4-32u4_datasheet.pdf#page=7)
+-[ The voltage reference may be
+externally decoupled at the AREF pin by a capacitor for better noise performance.](http://ww1.microchip.com/downloads/en/devicedoc/atmel-7766-8-bit-avr-atmega16u4-32u4_datasheet.pdf#page=297)
+
+
+-> AREF should be doucoupled with a capacitor
+
+VBUS:
+-[USB VBUS monitor input.](http://ww1.microchip.com/downloads/en/devicedoc/atmel-7766-8-bit-avr-atmega16u4-32u4_datasheet.pdf#page=6)
+-[A 10µF capacitor is highly recommended on VBUS line](http://ww1.microchip.com/downloads/en/devicedoc/atmel-7766-8-bit-avr-atmega16u4-32u4_datasheet.pdf#page=259)
+
+
+-> VBUS should be connected to 5V, with a 10uF decoupling cpacitor
+
+UVCC:
+-[USB Pads Internal Regulator Input supply voltage](http://ww1.microchip.com/downloads/en/devicedoc/atmel-7766-8-bit-avr-atmega16u4-32u4_datasheet.pdf#page=6)
+
+->UVCC should be connected to 5V(VCC)
+
+UCAP:
+-[USB Pads Internal Regulator Output supply voltage. Should be connected to an external capacitor (1µF)](http://ww1.microchip.com/downloads/en/devicedoc/atmel-7766-8-bit-avr-atmega16u4-32u4_datasheet.pdf#page=6)
+
+->UCAP should be decoupled with a 1uF capacitor/
+
+D+/D-:
+-[USB Full speed / Low Speed Negative Data Upstream Port. Should be connected to the USB D- connector pin
+with a serial 22 resistor](http://ww1.microchip.com/downloads/en/devicedoc/atmel-7766-8-bit-avr-atmega16u4-32u4_datasheet.pdf#page=6)
+-[USB Full speed / Low Speed Positive Data Upstream Port. Should be connected to the USB D+ connector pin
+with a serial 22 resistor.](http://ww1.microchip.com/downloads/en/devicedoc/atmel-7766-8-bit-avr-atmega16u4-32u4_datasheet.pdf#page=6)
+
+-> D+ D- should be connected to D+/D- on the USB port with a 22ohm resistor.
+
+XTAL1/XTAL2:
+-[Input to the inverting Oscillator amplifier and input to the internal clock operating circuit.](http://ww1.microchip.com/downloads/en/devicedoc/atmel-7766-8-bit-avr-atmega16u4-32u4_datasheet.pdf#page=7)
+-[Output from the inverting Oscillator amplifier.](http://ww1.microchip.com/downloads/en/devicedoc/atmel-7766-8-bit-avr-atmega16u4-32u4_datasheet.pdf#page=7)
+-[C1 and C2 should always be equal for both crystals and resonators. The optimal value of the capacitors
+depends on the crystal or resonator in use, the amount of stray capacitance, and the electromagnetic noise of
+the environment.](http://ww1.microchip.com/downloads/en/devicedoc/atmel-7766-8-bit-avr-atmega16u4-32u4_datasheet.pdf#page=30)
+
+->XTAL1 and XTAL2 should be connected to crystal with capacitors.
