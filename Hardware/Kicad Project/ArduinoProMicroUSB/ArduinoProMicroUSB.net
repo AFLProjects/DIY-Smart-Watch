@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source F:\Kicad\screentest1\ArduinoProMicroUSB\ArduinoProMicroUSB.sch)
-    (date "10/24/2020 6:07:07 PM")
+    (source "C:\\Users\\Adrian - Programming\\Desktop\\Arduino Smart Watch\\Hardware\\Kicad Project\\ArduinoProMicroUSB\\ArduinoProMicroUSB.sch")
+    (date "10/28/2020 11:09:43 AM")
     (tool "Eeschema (5.1.6)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -578,7 +578,7 @@
         (pin (num 3) (name C) (type passive)))))
   (libraries
     (library (logical ArduinoProMicroUSB-eagle-import)
-      (uri F:\Kicad\screentest1\ArduinoProMicroUSB/ArduinoProMicroUSB-eagle-import.lib))
+      (uri "C:\\Users\\Adrian - Programming\\Desktop\\Arduino Smart Watch\\Hardware\\Kicad Project\\ArduinoProMicroUSB/ArduinoProMicroUSB-eagle-import.lib"))
     (library (logical Connector)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Connector.lib"))
     (library (logical Device)
