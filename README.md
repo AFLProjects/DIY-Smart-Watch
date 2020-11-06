@@ -32,8 +32,8 @@ Schedule
 | Task                  | From       | To         |
 |-----------------------|------------|------------|
 | Preliminary Designs   | 24/10/2020 | 26/10/2020 |
-| Electrical Design     | 26/10/2020 | 01/11/2020 |
-| Mechanical Design     | 01/11/2020 | 08/11/2020 |
+| Electrical Design     | 26/10/2020 | 08/11/2020 |
+| Mechanical Design     | 08/11/2020 | 15/11/2020 |
 | Assembly              |            |            |
 | Testing               |            |            |
 | Mechanical Prototypes |            |            |
