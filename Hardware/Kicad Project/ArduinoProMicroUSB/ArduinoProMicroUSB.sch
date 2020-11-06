@@ -992,12 +992,6 @@ Text Label 6320 3470 0    70   ~ 0
 D3
 Text Label 6320 3370 0    70   ~ 0
 D2
-Text Label 6320 2570 0    70   ~ 0
-A3
-Text Label 6320 2670 0    70   ~ 0
-A4
-Text Label 6320 2770 0    70   ~ 0
-A5
 Text Label 6320 3970 0    70   ~ 0
 D8
 Text Label 6320 4070 0    70   ~ 0
@@ -1741,4 +1735,6 @@ F 3 "" H 5520 3670 50  0001 C CNN
 	1    5520 3670
 	1    0    0    -1  
 $EndComp
+NoConn ~ 6555 4470
+NoConn ~ 6555 4870
 $EndSCHEMATC
