@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.6)-1"
     },
-    "CreationDate":  "2020-11-07T21:34:24+01:00"
+    "CreationDate":  "2020-11-07T21:36:58+01:00"
   },
   "GeneralSpecs":
   {
@@ -22,7 +22,7 @@
       "X": 31.038,
       "Y": 26.466
     },
-    "LayerNumber": 4,
+    "LayerNumber": 2,
     "BoardThickness":  1.200
   },
   "DesignRules":
@@ -35,12 +35,6 @@
       "MinLineWidth":  0.200,
       "TrackToRegion":  0.200,
       "RegionToRegion":  0.200
-    },
-    {
-      "Layers": "Inner",
-      "PadToPad":  0.200,
-      "PadToTrack":  0.200,
-      "TrackToTrack":  0.100
     }
   ],
   "FilesAttributes":
@@ -51,18 +45,8 @@
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "ArduinoProMicroUSB-In1_Cu.gbr",
-      "FileFunction":  "Copper,L2,Inr",
-      "FilePolarity":  "Positive"
-    },
-    {
-      "Path":  "ArduinoProMicroUSB-In2_Cu.gbr",
-      "FileFunction":  "Copper,L3,Inr",
-      "FilePolarity":  "Positive"
-    },
-    {
       "Path":  "ArduinoProMicroUSB-B_Cu.gbr",
-      "FileFunction":  "Copper,L4,Bot",
+      "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
@@ -123,24 +107,6 @@
       "Type":  "Dielectric",
       "Material":  "FR4",
       "Notes":  "Layers L1/L2"
-    },
-    {
-      "Type":  "Copper",
-      "Notes":  "Layer In1.Cu"
-    },
-    {
-      "Type":  "Dielectric",
-      "Material":  "FR4",
-      "Notes":  "Layers L2/L3"
-    },
-    {
-      "Type":  "Copper",
-      "Notes":  "Layer In2.Cu"
-    },
-    {
-      "Type":  "Dielectric",
-      "Material":  "FR4",
-      "Notes":  "Layers L3/L4"
     },
     {
       "Type":  "Copper",
