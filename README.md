@@ -1,5 +1,7 @@
 <img src="https://github.com/AFLProjects/Arduino-Smart-Watch/blob/main/img/img2.png" alt="drawing" width="1000"/>
 
+<img src="https://github.com/AFLProjects/Arduino-Smart-Watch/blob/main/img/schematic.PNG" alt="drawing" width="1000"/>
+
 Project Overview
 ========
 
@@ -39,11 +41,6 @@ Schedule
 | Mechanical Prototypes |            |            |
 | Review                |            |            |				|
 
-
-Schematic and PCB
-========
-
-<img src="https://github.com/AFLProjects/Arduino-Smart-Watch/blob/main/img/schematic.PNG" alt="drawing" width="1000"/>
 
 
 
