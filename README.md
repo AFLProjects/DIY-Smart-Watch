@@ -2,7 +2,11 @@
 
 <img src="https://github.com/AFLProjects/Arduino-Smart-Watch/blob/main/img/schematic.PNG" alt="drawing" width="1000"/>
 
-<img src="https://github.com/AFLProjects/Arduino-Smart-Watch/blob/main/img/i1.png" alt="drawing" width="1000"/>
+<p float="left">
+  <img src="https://github.com/AFLProjects/Arduino-Smart-Watch/blob/main/img/i1.png" width="333" />
+  <img src="https://github.com/AFLProjects/Arduino-Smart-Watch/blob/main/img/i2.png" width="333" /> 
+  <img src="https://github.com/AFLProjects/Arduino-Smart-Watch/blob/main/img/i3.jpg" width="333" />
+</p>
 
 Project Overview
 ========
