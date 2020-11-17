@@ -2,7 +2,7 @@
 
 <img src="https://github.com/AFLProjects/Arduino-Smart-Watch/blob/main/img/schematic.PNG" alt="drawing" width="1000"/>
 
-![](https://github.com/AFLProjects/Arduino-Smart-Watch/blob/main/img/i1.png)  |  ![](https://github.com/AFLProjects/Arduino-Smart-Watch/blob/main/img/i2.png) | ![](https://github.com/AFLProjects/Arduino-Smart-Watch/blob/main/img/i3.png)
+<img src="https://github.com/AFLProjects/Arduino-Smart-Watch/blob/main/img/i1.png" alt="drawing" width="1000"/>
 
 Project Overview
 ========
