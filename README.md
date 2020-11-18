@@ -5,6 +5,7 @@
 <p float="left">
   <img src="https://github.com/AFLProjects/Arduino-Smart-Watch/blob/main/img/i1.png" height="300" />
   <img src="https://github.com/AFLProjects/Arduino-Smart-Watch/blob/main/img/i3.jpg" height="300" />
+   <img src="https://github.com/AFLProjects/Arduino-Smart-Watch/blob/main/img/i5.PNG" height="300" />
 </p>
 
 <p float="left">
