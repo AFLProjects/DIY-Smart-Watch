@@ -5,13 +5,14 @@
 <p float="left">
   <img src="https://github.com/AFLProjects/Arduino-Smart-Watch/blob/main/img/i1.png" height="250" />
   <img src="https://github.com/AFLProjects/Arduino-Smart-Watch/blob/main/img/i3.jpg" height="250" />
+  <img src="https://github.com/AFLProjects/Arduino-Smart-Watch/blob/main/img/i6.PNG" height="250" />
+  <img src="https://github.com/AFLProjects/Arduino-Smart-Watch/blob/main/img/i5.PNG" height="250" />
+  <img src="https://github.com/AFLProjects/Arduino-Smart-Watch/blob/main/img/i7.PNG" height="250" />
+  <img src="https://github.com/AFLProjects/Arduino-Smart-Watch/blob/main/img/i8.PNG" height="250" />
 </p>
 
 <p float="left">
-  <img src="https://github.com/AFLProjects/Arduino-Smart-Watch/blob/main/img/i6.PNG" width="250" />
-  <img src="https://github.com/AFLProjects/Arduino-Smart-Watch/blob/main/img/i5.PNG" width="250" />
-  <img src="https://github.com/AFLProjects/Arduino-Smart-Watch/blob/main/img/i7.PNG" width="250" />
-  <img src="https://github.com/AFLProjects/Arduino-Smart-Watch/blob/main/img/i8.PNG" width="250" />
+  
 </p>
 
 Project Overview
