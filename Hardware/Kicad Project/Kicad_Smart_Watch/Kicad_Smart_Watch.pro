@@ -1,4 +1,4 @@
-update=11/7/2020 9:38:18 PM
+update=12/5/2020 3:54:28 PM
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=ArduinoProMicroUSB.net
+LastNetListRead=Kicad_Smart_Watch.net
 CopperLayerCount=2
 BoardThickness=1.2
 AllowMicroVias=0
@@ -48,6 +48,8 @@ TrackWidth7=0.45
 TrackWidth8=1
 ViaDiameter1=0.8
 ViaDrill1=0.4
+ViaDiameter2=0.6
+ViaDrill2=0.3
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
