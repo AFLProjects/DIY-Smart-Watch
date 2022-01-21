@@ -1,3 +1,5 @@
 (sym_lib_table
   (lib (name ArduinoProMicroUSB-eagle-import)(type Legacy)(uri ${KIPRJMOD}/ArduinoProMicroUSB-eagle-import.lib)(options "")(descr ""))
+  (lib (name misc)(type Legacy)(uri ${KIPRJMOD}/misc.lib)(options "")(descr ""))
+  (lib (name Kicad_Smart_Watch-rescue)(type Legacy)(uri ${KIPRJMOD}/Kicad_Smart_Watch-rescue.lib)(options "")(descr ""))
 )
